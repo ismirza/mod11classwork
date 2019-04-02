@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Methods</h2>
+  <p id="persons"></p>
+  <script>
+    var person = {
+      firstName: 'Clint',
+      LastName: 'Hurdle',
+      id: 2424,
+      fullName: function () {
+        return this.firstName + ' ' + this.lastName;
+
+      },
+    };
+
+    document.getElementById('persons').innerHTML = person.fullName();
+
+    document.getElementById('persons').innerHTML = person.id();
+
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Week11</title>
+  <p id="constructor"x></p>
+  <script>
+    //Constructor for Person objectn
+    function Person(first, last, age, eye) {
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eye;
+    }
+
+    var favoriteAthlete = new Person("Lebron", "James", 34, "dar brown");
+    var favoriteActor = new Person("Mike", "Rosinsky", 43, "dark brown");
+
+    //display result
+    document.getElementById("constructor").innerHTML = "My favorite Athlete is " + favoriteAthlete.age + " My fav actor is " + favoriteActor.age + " ";
+  </script>
+  <head>
+
+  <body>
+
+  </body>
+
+</html>
